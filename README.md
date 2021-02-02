@@ -45,7 +45,7 @@ The Script has the following inputs.
 
 `output_directory` is the path of output, where the two folders of "same" & "different" are created. 
 
-Error handling
+### Error handling
 
 The script will raise fallowing error if directories are not provided.
 
