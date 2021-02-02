@@ -18,3 +18,15 @@ Table of Contents
   * [Contributing](#contributing)
   * [Support and Migration](#support-and-migration)
   * [License](#license)
+
+Requirements
+------------
+
+Paddington requires the following to run:
+
+  * [Node.js][node] 0.10+
+  * [npm][npm] (normally comes with Node.js)
+
+
+[node]: https://nodejs.org/
+[npm]: https://www.npmjs.com/
