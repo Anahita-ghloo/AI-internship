@@ -39,5 +39,7 @@ Note : There is a space between each directory above.
 The Script has the following inputs.
 
 `index_directory` is the path of index folder, where the main pictures exist. 
+
 `others_directory` is the path of others folder, where the copies of index pictures exist. 
+
 `output_directory` is the path of output, where the two folders of "same" & "different" are created. 
