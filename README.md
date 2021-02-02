@@ -50,3 +50,18 @@ The Script has the following inputs.
 The script will raise fallowing error if directories are not provided.
 
 AttributeError: `NoneType` object
+
+Contributing
+-----
+
+Not yet
+
+Support and Migration
+-----
+
+Not yet
+
+License
+-----
+
+Not yet
