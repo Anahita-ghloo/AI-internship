@@ -15,7 +15,7 @@ Table of Contents
 Requirements
 ------------
 
-Paddington requires the following to run:
+The script requires the following to run:
 
   * [python][python] 3.7+
   * dataset_internship
