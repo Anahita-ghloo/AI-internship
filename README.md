@@ -3,12 +3,6 @@ My first project of internship with Shenasa.
 Comparing ID of images in two directories and transfer them to same or different directory. The Code is in python.
 
 
-example : 
-(base) C:\>python Compare_ID_Shenasa.py --index_directory C:Anahita\dataset\index --others_directory C:Anahita\dataset\others
---output_directory C:\Users\Anahita
-
-
-
 Table of Contents
 -----------------
 
