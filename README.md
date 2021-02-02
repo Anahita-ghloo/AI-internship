@@ -24,9 +24,8 @@ Requirements
 
 Paddington requires the following to run:
 
-  * [Node.js][node] 0.10+
-  * [npm][npm] (normally comes with Node.js)
+  * [python][python] 3.7+
+  * [dataset_internship] 
 
 
-[node]: https://nodejs.org/
-[npm]: https://www.npmjs.com/
+[python]: https://www.python.org/downloads/
