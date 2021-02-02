@@ -29,3 +29,15 @@ Paddington requires the following to run:
 
 
 [python]: https://www.python.org/downloads/
+
+Usage
+-----
+
+First you should install python on your system and download the dataset.
+Then you can run the script with cmd or Anaconda Prompt.
+You need to install following libraries and import them to your code
+
+```sh
+pip install argpase
+```
+
