@@ -25,7 +25,7 @@ Requirements
 Paddington requires the following to run:
 
   * [python][python] 3.7+
-  * [dataset_internship] 
+  * dataset_internship
 
 
 [python]: https://www.python.org/downloads/
