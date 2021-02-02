@@ -1,6 +1,6 @@
-# shenasa-internship
-My first project of internship with Shenasa
-Comparing ID of two images 
+# Shenasa-Internship
+My first project of internship with Shenasa.
+Comparing ID of images in two directories and transfer them to same or different directory. The Code is in python.
 
 Run Command in Anaconda Prompt & cmd : python "directory of Compare_ID_Shenasa.py" "index directory" "others directory" "output directory"
 
