@@ -28,7 +28,6 @@ Usage
 
 First you should install python on your system and download the dataset.
 Then you can run the script with cmd or Anaconda Prompt.
-You need to install following libraries and import them to your code
 
 example:
 ```sh
@@ -36,3 +35,9 @@ example:
 --output_directory C:\Users\Anahita
 ```
 Note : There is a space between each directory above.
+
+The Script has the following inputs.
+
+`index_directory` is the path of index folder, where the main pictures exist. 
+`others_directory` is the path of others folder, where the copies of index pictures exist. 
+`output_directory` is the path of output, where the two folders of "same" & "different" are created. 
