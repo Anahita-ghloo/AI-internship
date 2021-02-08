@@ -17,7 +17,7 @@ def generate_same_pairs(index_directory: str, others_directory: str,
     """
     Generate all same pairs
     """
-    all_same_names = []
+    all_same_pairs = []
     
     for i, index_id in enumerate(os.listdir(index_directory)):
 
@@ -52,7 +52,7 @@ def generate_same_pairs(index_directory: str, others_directory: str,
                             else:
                                 shutil.copy(others_directory + '/' + f , same_dir)
 
-        all_same_names.extend(same_images)
+        all_same_pairs.extend(same_images)
     return len(all_same_pairs)
                 
 def generate_different_pairs(num_same_paires: int, index_directory: str,
