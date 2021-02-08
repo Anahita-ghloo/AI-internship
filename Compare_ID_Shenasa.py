@@ -31,12 +31,12 @@ def generate_same_pairs(index_directory: str, others_directory: str,
                 same_images.append(others_name)
             
         if same_images:
-            # If image has same image in others
+            # If image has same images in others
             same_images.append(index_id)
             for i in range(0, len(same_images)):
                 for j in range(i+1, len(same_images)):
                     
-                    # Create a directory for same images
+                    # Create a directory for each same pairs
                     same_dir = output_directory + '/same' + same_images[i] + '-' + same_images[j]
 
                     if not os.path.exists(same_dir):
@@ -52,7 +52,7 @@ def generate_same_pairs(index_directory: str, others_directory: str,
                             shutil.copy(others_directory + '/' + f , same_dir)
 
                     num_same_pairs += 1
-    return len(num_same_pairs)
+    return num_same_pairs
                 
 def generate_different_pairs(num_same_paires: int, index_directory: str,
                              others_directory: str, output_directory: str) -> int:
